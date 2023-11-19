@@ -1,10 +1,10 @@
 {
   "index_name": "OpenCogMind",
   "start_urls": [
-    "http://localhost:3000"
+    "https://moonbasenet.netlify.app/"
   ],
   "sitemap_urls": [
-    "http://localhost:3000/sitemap.xml"
+    "https://moonbasenet.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [

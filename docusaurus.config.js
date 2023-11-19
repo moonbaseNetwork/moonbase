@@ -60,11 +60,11 @@ tagline: "How to find out your child's interest?",
   themeConfig:
     {
       algolia:{
-        apiKey: '03bc6eb8078009a4ba5ca6b0f7b8920d',
-        indexName: 'OpenCogMind',
+        apiKey: '62b8d128f186fabaf51261ad2e190a3b',
+        indexName: 'MoonBase',
         contextualSearch: false,
         placeholder: 'Enter name here ',
-        appId: 'AGDCIFUF3C',
+        appId: '68WPID8VPC',
 
       },
       // Replace with your project's social card
