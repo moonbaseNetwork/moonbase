@@ -18,7 +18,7 @@ tagline: "How to find out your child's interest?",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'opencogmind', // Usually your GitHub org/user name.
+  organizationName: 'MoonBase', // Usually your GitHub org/user name.
   projectName: '', // Usually your repo name.
   deploymentBranch: "gh-pages",
 
@@ -75,7 +75,7 @@ tagline: "How to find out your child's interest?",
       },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'OpenCogMind',
+        title: 'MoonBase',
         logo: {
           alt: '',
           src: 'img/logo.png',
@@ -85,29 +85,22 @@ tagline: "How to find out your child's interest?",
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'AGI',
+            label: 'MoonBase',
           },
           {
             type: 'docSidebar',
             routeBasePath:'/',
             sidebarId: 'mySidebar',
             position: 'left',
-            label: 'AI Safety',
+            label: 'Events',
           },
           {
             type: 'docSidebar',
             routeBasePath:'/',
             sidebarId: 'mySidebar2',
             position: 'left',
-            label: 'Apps',
-          },
-          {
-            type: 'docSidebar',
-            routeBasePath:'/',
-            sidebarId: 'demo',
-            position: 'left',
-            label: 'New Demo',
-          },
+            label: 'Podcasts',
+          },  
           {to: '/blog', label: 'Blogs', position: 'left'},
           // {to: '/about', label: 'About', position: 'left'},
           {
@@ -121,16 +114,16 @@ tagline: "How to find out your child's interest?",
         style: 'dark',
         links: [
         {
-        title: 'OpenCogMind',
+        title: 'MoonBase',
         items: [
         {
-        label: 'AGI',
-        to: '/agi/intro',
+        label: 'MoonBase',
+        to: '/MoonBase/intro',
         },
         
         {
-        label: 'AI Safety',
-        to: '/aisafety/welcome',
+        label: 'Events',
+        to: '/Events/welcome',
         },
         
         ],

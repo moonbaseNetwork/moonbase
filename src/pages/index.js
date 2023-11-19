@@ -27,7 +27,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className=" button button--secondary button--lg"
-            to="/agi/intro" style={{color: 'black', border: '2px solid purple' }}>
+            to="/MoonBase/intro" style={{color: 'black', border: '2px solid purple' }}>
             Findout
           </Link>
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello to opencogmind`}
+      title={`Hello to MoonBase`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

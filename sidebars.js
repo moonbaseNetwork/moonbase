@@ -16,91 +16,88 @@ const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [{
     type: 'category',
-    label: 'AGI',
+    label: 'MoonBase',
     items: [
-      'agi/intro',
+      'MoonBase/intro',
     ],
   },
   {
     type: 'category',
     label: 'tutorial-basics',
     items: [
-      'agi/tutorial-basics/congratulations',
-      'agi/tutorial-basics/create-a-blog-post',
-      'agi/tutorial-basics/create-a-document',
-      'agi/tutorial-basics/create-a-page',
-      'agi/tutorial-basics/deploy-your-site',
+      'MoonBase/tutorial-basics/congratulations',
+      'MoonBase/tutorial-basics/create-a-blog-post',
+      'MoonBase/tutorial-basics/create-a-document',
+      'MoonBase/tutorial-basics/create-a-page',
+      'MoonBase/tutorial-basics/deploy-your-site',
     ],
   },
   {
     type: 'category',
     label: 'tutorial-extras',
     items: [
-      'agi/tutorial-extras/manage-docs-versions',
-      'agi/tutorial-extras/translate-your-site',
+      'MoonBase/tutorial-extras/manage-docs-versions',
+      'MoonBase/tutorial-extras/translate-your-site',
   
     ],
   },],
 
   mySidebar: [{type: 'category',
-  label: 'AI Safety',
+  label: 'Events',
   items: [
-    'aisafety/welcome',
+    'Events/welcome',
     // Add more documentation links as needed
   ],},
   {
     type: 'category',
     label: 'tutorial-basics',
     items: [
-      'aisafety/tutorial-basics/congratulations',
-      'aisafety/tutorial-basics/create-a-blog-post',
-      'aisafety/tutorial-basics/create-a-document',
-      'aisafety/tutorial-basics/create-a-page',
-      'aisafety/tutorial-basics/deploy-your-site',
+      'Events/tutorial-basics/congratulations',
+      'Events/tutorial-basics/create-a-blog-post',
+      'Events/tutorial-basics/create-a-document',
+      'Events/tutorial-basics/create-a-page',
+      'Events/tutorial-basics/deploy-your-site',
     ],
   },
   {
     type: 'category',
     label: 'tutorial-extras',
     items: [
-      'aisafety/tutorial-extras/manage-docs-versions',
-      'aisafety/tutorial-extras/translate-your-site',
+      'Events/tutorial-extras/manage-docs-versions',
+      'Events/tutorial-extras/translate-your-site',
   
     ],
   },],
 
   mySidebar2: [{type: 'category',
-  label: 'Apps',
+  label: 'Podcasts',
   items: [
   
-    'Apps/welcome',
+    'Podcasts/welcome',
     // Add more documentation links as needed
   ],},
   {
     type: 'category',
     label: 'tutorial-basics',
     items: [
-      'Apps/tutorial-basics/congratulations',
-      'Apps/tutorial-basics/create-a-blog-post',
-      'Apps/tutorial-basics/create-a-document',
-      'Apps/tutorial-basics/create-a-page',
-      'Apps/tutorial-basics/deploy-your-site',
+      'Podcasts/tutorial-basics/congratulations',
+      'Podcasts/tutorial-basics/create-a-blog-post',
+      'Podcasts/tutorial-basics/create-a-document',
+      'Podcasts/tutorial-basics/create-a-page',
+      'Podcasts/tutorial-basics/deploy-your-site',
     ],
   },
   {
     type: 'category',
     label: 'tutorial-extras',
     items: [
-      'Apps/tutorial-extras/manage-docs-versions',
-      'Apps/tutorial-extras/translate-your-site',
+      'Podcasts/tutorial-extras/manage-docs-versions',
+      'Podcasts/tutorial-extras/translate-your-site',
   
     ],
   },],
   
-  demo: [{ type:'category', label:'demo',
-          items:[
-            'demo/intro',
-          ],},],
+   
   
 };
  
