@@ -6,7 +6,7 @@ const FeatureList = [
   {
     title: 'Events',
     link: '/events/welcome',
-    Svg: require('@site/static/img/1.svg').default,
+    Svg: require('@site/static/img/event.svg').default,
     description: (
       <>
         Learn AI Safety for self evolving AGI.
@@ -16,7 +16,7 @@ const FeatureList = [
   {
     title: 'Podcasts',
     link: '/Podcasts/welcome',
-    Svg: require('@site/static/img/3.svg').default,
+    Svg: require('@site/static/img/pocasts.svg').default,
     description: (
       <>
         Learn to Build & Evaluate Safe AI apps.
@@ -26,7 +26,7 @@ const FeatureList = [
   {
     title: 'Blogs',
     link: '/blog/welcome',
-    Svg: require('@site/static/img/2.svg').default,
+    Svg: require('@site/static/img/moonbase.svg').default,
     description: (
       <>
         Follow the path to AGI.

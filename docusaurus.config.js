@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-title: 'MoonBase',
-tagline: "How to find out your child's interest?",
+title: 'How to find out your Childs Interest ?',
+tagline: "MoonBase",
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
@@ -121,37 +121,23 @@ tagline: "How to find out your child's interest?",
         to: '/Podcasts/welcome',
         },
         
-        {
-        label: 'Events',
-        to: '/Events/welcome',
-        },
-        {
-          label: 'Blog',
-          to: '/blog/welcome',
-        },
+        
+        
         
         ],
         },
         {
-        title: 'Apps',
+        title: 'Events',
         items: [
-        {
-        label: 'GitHub',
-        href: 'https://github.com/facebook/docusaurus',
-        },
-        {
-        label: 'Youtube',
-        href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        }
+          {
+            label: 'Events',
+            to: '/Events/welcome',
+            },
         ],
         },
         {
         title: 'Community',
         items: [
-        {
-        label: 'Slack',
-        href: 'https://app.slack.com/client/T0632A15V71/D063K9K7FE0',
-        },
         {
         label: 'Twitter/X',
         href: 'https://twitter.com/OpencogMind',

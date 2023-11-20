@@ -23,7 +23,7 @@ function HomepageHeader() {
     <header className={clsx('hero ', styles.heroBanner)} style={heroStyle}>
       <div className="container">
         <h1 style={{color: 'white', textAlign:'center', fontStyle:'Proxima Nova' }} className="hero__title">{siteConfig.title}</h1>
-        <p style={{color: 'white', textAlign:'center',fontStyle:'Proxima Nova' }} className="hero__subtitle">{siteConfig.tagline}</p>
+        <h4 style={{color: 'white', textAlign:'center',fontStyle:'Proxima Nova' }} className="hero__subtitle">{siteConfig.tagline}</h4>
         <div className={styles.buttons}>
           <Link
             className=" button button--secondary button--lg"
