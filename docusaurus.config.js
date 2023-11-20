@@ -11,7 +11,7 @@ tagline: "How to find out your child's interest?",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'http://localhost',
+  url: 'https://moonbasenet.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -60,7 +60,7 @@ tagline: "How to find out your child's interest?",
   themeConfig:
     {
       algolia:{
-        apiKey: '62b8d128f186fabaf51261ad2e190a3b',
+        apiKey: 'a18d6ff1451c8dc954cc7fb399354639',
         indexName: 'MoonBase',
         contextualSearch: false,
         placeholder: 'Enter name here ',
@@ -81,12 +81,12 @@ tagline: "How to find out your child's interest?",
           src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'MoonBase',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'MoonBase',
+          // },
           {
             type: 'docSidebar',
             routeBasePath:'/',
@@ -155,7 +155,7 @@ tagline: "How to find out your child's interest?",
         ],
         },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} OpenCogMind.com`,
+        copyright: `Copyright © ${new Date().getFullYear()} MoonBase.com`,
         },
       prism: {
         darkTheme: darkCodeTheme,

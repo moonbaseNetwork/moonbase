@@ -14,33 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
-  tutorialSidebar: [{
-    type: 'category',
-    label: 'MoonBase',
-    items: [
-      'MoonBase/intro',
-    ],
-  },
-  {
-    type: 'category',
-    label: 'tutorial-basics',
-    items: [
-      'MoonBase/tutorial-basics/congratulations',
-      'MoonBase/tutorial-basics/create-a-blog-post',
-      'MoonBase/tutorial-basics/create-a-document',
-      'MoonBase/tutorial-basics/create-a-page',
-      'MoonBase/tutorial-basics/deploy-your-site',
-    ],
-  },
-  {
-    type: 'category',
-    label: 'tutorial-extras',
-    items: [
-      'MoonBase/tutorial-extras/manage-docs-versions',
-      'MoonBase/tutorial-extras/translate-your-site',
-  
-    ],
-  },],
+   
 
   mySidebar: [{type: 'category',
   label: 'Events',
