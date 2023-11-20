@@ -6,26 +6,26 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary:rgb(130, 129, 239);
-  --ifm-color-primary-dark:rgb(130, 129, 239);
-  --ifm-color-primary-darker:rgb(130, 129, 239);
-  --ifm-color-primary-darkest:rgb(130, 129, 239);
-  --ifm-color-primary-light:rgb(130, 129, 239);
-  --ifm-color-primary-lighter:rgb(130, 129, 239);
-  --ifm-color-primary-lightest:rgb(130, 129, 239);
+  --ifm-color-primary:#FC84B7;
+  --ifm-color-primary-dark:#FC84B7;
+  --ifm-color-primary-darker:#FC84B7;
+  --ifm-color-primary-darkest:#FC84B7;
+  --ifm-color-primary-light:#FC84B7;
+  --ifm-color-primary-lighter:#FC84B7;
+  --ifm-color-primary-lightest:#FC84B7;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary:rgb(130, 129, 239);
-  --ifm-color-primary-dark:rgb(130, 129, 239);
-  --ifm-color-primary-darker:rgb(130, 129, 239);
-  --ifm-color-primary-darkest:rgb(130, 129, 239);
-  --ifm-color-primary-light:rgb(130, 129, 239);
-  --ifm-color-primary-lighter:rgb(130, 129, 239);
-  --ifm-color-primary-lightest:rgb(130, 129, 239);
+  --ifm-color-primary:#FC84B7;
+  --ifm-color-primary-dark:#FC84B7;
+  --ifm-color-primary-darker:#FC84B7;
+  --ifm-color-primary-darkest:#FC84B7;
+  --ifm-color-primary-light:#FC84B7;
+  --ifm-color-primary-lighter:#FC84B7;
+  --ifm-color-primary-lightest:#FC84B7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-hero-background-color: #000000 !important;
   --ifm-footer-background-color:#000000 !important;
@@ -62,13 +62,13 @@
   background-color: #000000 !important;
 }
 .footer__title{
-  color: rgb(130, 129, 239) !important;
+  color: #FC84B7 !important;
 }
 .footer__copyright{
-  color: rgb(130, 129, 239) !important;
+  color: #FC84B7 !important;
 }
 .navbar__title{
-  color: rgb(130, 129, 239) !important;
+  color: #FC84B7 !important;
 }
 body{
   font-family: Public Sans,Nunito Sans,Helvetica Neue,helvetica,roboto,arial,sans-serif !important;

@@ -117,13 +117,17 @@ tagline: "How to find out your child's interest?",
         title: 'MoonBase',
         items: [
         {
-        label: 'MoonBase',
-        to: '/MoonBase/intro',
+        label: 'Podcasts',
+        to: '/Podcasts/welcome',
         },
         
         {
         label: 'Events',
         to: '/Events/welcome',
+        },
+        {
+          label: 'Blog',
+          to: '/blog/welcome',
         },
         
         ],
@@ -155,7 +159,7 @@ tagline: "How to find out your child's interest?",
         ],
         },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} MoonBase.com`,
+        copyright: `Copyright © ${new Date().getFullYear()} moonbase.network`,
         },
       prism: {
         darkTheme: darkCodeTheme,

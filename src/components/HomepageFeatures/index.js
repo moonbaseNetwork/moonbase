@@ -24,8 +24,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'MoonBase',
-    link: '/moonbase/intro',
+    title: 'Blogs',
+    link: '/blog/welcome',
     Svg: require('@site/static/img/2.svg').default,
     description: (
       <>
@@ -44,7 +44,7 @@ function Feature({ link, Svg, title, description}) {
     <Svg className={styles.featureSvg} role="img" />
   </div>
   <div className={clsx('content', styles.flexItem1)}>
-    <a style={{color: 'rgb(130, 129, 239)'}} href={link}><h3>{title}</h3></a>
+    <a style={{color: '#FC84B7'}} href={link}><h3>{title}</h3></a>
     <p>{description}</p>
   </div>
 </div>
