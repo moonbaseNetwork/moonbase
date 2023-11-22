@@ -24,8 +24,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'MoonBase',
-    // link: '/blog/welcome',
+    title: 'Blogs',
+    link: '/blog/welcome',
     Svg: require('@site/static/img/moonbase.svg').default,
     description: (
       <>
